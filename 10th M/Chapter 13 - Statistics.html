@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>10TH M - Chapter 13 - Statistics</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #2c3e50; margin: 20px; }
+        .header-box { background: #1e3d59; color: white; text-align: center; padding: 20px; border-radius: 6px; margin-bottom: 20px; }
+        .header-box h1 { margin: 0; font-size: 22px; }
+        .header-box h2 { margin: 5px 0 0 0; font-size: 14px; color: #ffc107; }
+    </style>
+</head>
+<body>
+    <div class="header-box">
+        <h1>AI Shaale Core Feed</h1>
+        <h2>FOLDER: 10TH M • CHAPTER 13 - STATISTICS</h2>
+    </div>
+    <div>
+    <h1>ಅಧ್ಯಾಯ 13: ಸಾಂಖ್ಯಶಾಸ್ತ್ರ (Statistics)</h1>
+
+    <h2>ಅಧ್ಯಾಯದ ಸಂಕ್ಷಿಪ್ತ ಮಾಹಿತಿ</h2>
+    <p>ಈ ಅಧ್ಯಾಯವು ವರ್ಗೀಕೃತ ದತ್ತಾಂಶಗಳ ಕೇಂದ್ರೀಯ ಪ್ರವೃತ್ತಿಯ ಅಳತೆಗಳಾದ ಸರಾಸರಿ (Mean), ಮಧ್ಯಾಂಕ (Median) ಮತ್ತು ಬಹುಳಕ (Mode) ಗಳ ಬಗ್ಗೆ ವಿವರಿಸುತ್ತದೆ. ದತ್ತಾಂಶಗಳನ್ನು ವರ್ಗೀಕೃತ ರೂಪಕ್ಕೆ ಬದಲಾಯಿಸುವುದು, ಅವುಗಳಿಗೆ ಸೂಕ್ತವಾದ ಸೂತ್ರಗಳನ್ನು ಅನ್ವಯಿಸಿ ಮೌಲ್ಯಗಳನ್ನು ಕಂಡುಹಿಡಿಯುವುದು ಮತ್ತು ನೈಜ ಜೀವನದ ಸಮಸ್ಯೆಗಳಿಗೆ ಇವುಗಳನ್ನು ಹೇಗೆ ಅನ್ವಯಿಸಬೇಕು ಎಂಬುದನ್ನು ಈ ಅಧ್ಯಾಯದಲ್ಲಿ ಕಲಿಯುತ್ತೇವೆ.</p>
+
+    <h2>ಪರೀಕ್ಷೆಗಾಗಿ ನೆನಪಿಡಬೇಕಾದ ಪ್ರಮುಖ ಸೂತ್ರಗಳು</h2>
+    <ul>
+        <li><strong>ಸರಾಸರಿ (Mean):</strong>
+            <ul>
+                <li>ನೇರ ವಿಧಾನ: x̄ = Σ(fᵢxᵢ) / Σfᵢ</li>
+                <li>ಊಹಿಸಿದ ಸರಾಸರಿ ವಿಧಾನ: x̄ = a + Σ(fᵢdᵢ) / Σfᵢ (ಇಲ್ಲಿ dᵢ = xᵢ - a)</li>
+                <li>ಹಂತ ವಿಚಲನ ವಿಧಾನ: x̄ = a + [Σ(fᵢuᵢ) / Σfᵢ] × h (ಇಲ್ಲಿ uᵢ = (xᵢ - a) / h)</li>
+            </ul>
+        </li>
+        <li><strong>ಬಹುಳಕ (Mode):</strong>
+            <ul>
+                <li>ಬಹುಳಕ = l + [(f₁ - f₀) / (2f₁ - f₀ - f₂)] × h</li>
+                <li>(l = ಬಹುಳಕ ವರ್ಗದ ಕೆಳಮಿತಿ, h = ವರ್ಗದ ಗಾತ್ರ, f₁ = ಬಹುಳಕ ವರ್ಗದ ಆವೃತ್ತಿ, f₀ = ಹಿಂದಿನ ವರ್ಗದ ಆವೃತ್ತಿ, f₂ = ಮುಂದಿನ ವರ್ಗದ ಆವೃತ್ತಿ)</li>
+            </ul>
+        </li>
+        <li><strong>ಮಧ್ಯಾಂಕ (Median):</strong>
+            <ul>
+                <li>ಮಧ್ಯಾಂಕ = l + [(n/2 - cf) / f] × h</li>
+                <li>(l = ಮಧ್ಯಾಂಕ ವರ್ಗದ ಕೆಳಮಿತಿ, n = ಒಟ್ಟು ಆವೃತ್ತಿ, cf = ಮಧ್ಯಾಂಕ ವರ್ಗದ ಹಿಂದಿನ ವರ್ಗದ ಸಂಚಿತ ಆವೃತ್ತಿ, f = ಮಧ್ಯಾಂಕ ವರ್ಗದ ಆವೃತ್ತಿ, h = ವರ್ಗದ ಗಾತ್ರ)</li>
+            </ul>
+        </li>
+        <li><strong>ಅನುಭವಾತ್ಮಕ ಸಂಬಂಧ:</strong> 3 ಮಧ್ಯಾಂಕ = ಬಹುಳಕ + 2 ಸರಾಸರಿ</li>
+    </ul>
+
+    <h2>ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರಮುಖ ಸಲಹೆಗಳು</h2>
+    <ul>
+        <li>ವರ್ಗಾಂತರಗಳು ನಿರಂತರವಾಗಿಲ್ಲದಿದ್ದರೆ (ಉದಾ: 118-126, 127-135), ಮೊದಲು ಅವುಗಳನ್ನು ನಿರಂತರ ವರ್ಗಾಂತರಗಳಾಗಿ (117.5-126.5, 126.5-135.5) ಬದಲಾಯಿಸಿಕೊಳ್ಳಿ.</li>
+        <li>ಮಧ್ಯಾಂಕ ಕಂಡುಹಿಡಿಯುವಾಗ 'n/2' ಗಿಂತ ದೊಡ್ಡದಾದ ಮೊದಲ ಸಂಚಿತ ಆವೃತ್ತಿಯನ್ನು ಗುರುತಿಸುವುದು ಅತ್ಯಗತ್ಯ.</li>
+        <li>ಹಂತ ವಿಚಲನ ವಿಧಾನವನ್ನು ಬಳಸುವಾಗ 'h' (ವರ್ಗ ಗಾತ್ರ) ಸರಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</li>
+    </ul>
+
+    <h2>ಅಭ್ಯಾಸ 13.1 - ಪರಿಹಾರಗಳು</h2>
+    <p><strong>ಪ್ರಶ್ನೆ 1:</strong> 20 ಮನೆಗಳ ಗಿಡಗಳ ಸರಾಸರಿ ಕಂಡುಹಿಡಿಯಿರಿ.</p>
+    <p><strong>ಪರಿಹಾರ:</strong> ಇಲ್ಲಿ ನೇರ ವಿಧಾನ ಸೂಕ್ತ, ಏಕೆಂದರೆ xᵢ ಮತ್ತು fᵢ ಮೌಲ್ಯಗಳು ಚಿಕ್ಕದಾಗಿವೆ.</p>
+    <table>
+        <tr><th>ಗಿಡಗಳ ಸಂಖ್ಯೆ</th><th>ಮನೆಗಳ ಸಂಖ್ಯೆ (fᵢ)</th><th>ಮಧ್ಯಬಿಂದು (xᵢ)</th><th>fᵢxᵢ</th></tr>
+        <tr><td>0-2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>2-4</td><td>2</td><td>3</td><td>6</td></tr>
+        <tr><td>4-6</td><td>1</td><td>5</td><td>5</td></tr>
+        <tr><td>6-8</td><td>5</td><td>7</td><td>35</td></tr>
+        <tr><td>8-10</td><td>6</td><td>9</td><td>54</td></tr>
+        <tr><td>10-12</td><td>2</td><td>11</td><td>22</td></tr>
+        <tr><td>12-14</td><td>3</td><td>13</td><td>39</td></tr>
+        <tr><td><strong>ಒಟ್ಟು</strong></td><td><strong>20</strong></td><td>-</td><td><strong>162</strong></td></tr>
+    </table>
+    <p>ಸರಾಸರಿ (x̄) = 162 / 20 = 8.1</p>
+
+    <p><strong>ಪ್ರಶ್ನೆ 2:</strong> 50 ನೌಕರರ ಸರಾಸರಿ ದಿನಗೂಲಿ ಕಂಡುಹಿಡಿಯಿರಿ.</p>
+    <p><strong>ಪರಿಹಾರ:</strong> ಹಂತ ವಿಚಲನ ವಿಧಾನ ಬಳಸಿ (a=540, h=20):</p>
+    <table>
+        <tr><th>ದಿನಗೂಲಿ</th><th>ನೌಕರರು (fᵢ)</th><th>xᵢ</th><th>uᵢ</th><th>fᵢuᵢ</th></tr>
+        <tr><td>500-520</td><td>12</td><td>510</td><td>-2</td><td>-24</td></tr>
+        <tr><td>520-540</td><td>14</td><td>530</td><td>-1</td><td>-14</td></tr>
+        <tr><td>540-560</td><td>8</td><td>550</td><td>0</td><td>0</td></tr>
+        <tr><td>560-580</td><td>6</td><td>570</td><td>1</td><td>6</td></tr>
+        <tr><td>580-600</td><td>10</td><td>590</td><td>2</td><td>20</td></tr>
+        <tr><td><strong>ಒಟ್ಟು</strong></td><td><strong>50</strong></td><td>-</td><td>-</td><td><strong>-12</strong></td></tr>
+    </table>
+    <p>x̄ = 540 + (-12/50) × 20 = 540 - 4.8 = 535.2</p>
+
+    <p>*(ಸೂಚನೆ: ಪಠ್ಯಪುಸ್ತಕದಲ್ಲಿನ ಉಳಿದ ಎಲ್ಲಾ ಪ್ರಶ್ನೆಗಳಿಗೆ ಇದೇ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ ಪರಿಹರಿಸಬಹುದು.)*</p>
+</div>
+</body>
+</html>
